@@ -17,7 +17,7 @@ const UserScema=new mongoose.Schema({
 
   
           votes:[{
-      user:{
+      userId:{
         type:mongoose.Schema.Types.ObjectId,
         ref:'User',
         
