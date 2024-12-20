@@ -63,7 +63,7 @@ try {
 
 
   // Update the Candidate document to record the vote
-    candidateCoise.votes.push({userId})
+    candidateCoise.votes.push({userId:userId})
       candidateCoise.votecount++
       await candidateCoise.save()
       voterId.isVoted=true
